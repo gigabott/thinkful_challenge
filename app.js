@@ -23,7 +23,7 @@ $(document).ready(function () {
 		$.each(videos, function (index, video) {
 			// append li to ul
 			html = html + "<li><p>" + video.snippet.title +
-				"</p><img src='" +  video.snippet.thumbnails.high.url + "'/></li>" ;
+				"</p><img src='" +  video.snippet.thumbnails.medium.url + "'/></li>" ;
 
 		});
 		$("#search-results ul").html(html);
